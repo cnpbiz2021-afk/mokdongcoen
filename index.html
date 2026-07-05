@@ -1,0 +1,2392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO 최적화 요구사항 -->
+  <title>목동 수면다원검사 | 목동코엔이비인후과</title>
+  <meta name="description" content="목동코엔이비인후과 급여수면다원검사로 코골이, 수면무호흡증을 정확하게 진단하세요. 양압기(CPAP) 처방 및 체계적인 수면 질환 관리를 통해 편안한 잠을 되찾아드립니다. 건강보험 급여 적용으로 부담 없는 검사 가능.">
+  <meta name="keywords" content="목동, 수면다원검사, 수면무호흡증, 코골이, 양압기, 급여수면다원검사, 수면클리닉, 목동코엔이비인후과">
+  <link rel="canonical" href="https://mokdongcoen.com/sleep-clinic">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="목동 수면다원검사 | 목동코엔이비인후과">
+  <meta property="og:description" content="코골이, 수면무호흡증 치료의 시작! 목동코엔이비인후과에서 건강보험 급여 적용되는 수면다원검사와 맞춤형 양압기 치료를 만나보세요.">
+  <meta property="og:image" content="sleep_clinic_room.png">
+  <meta property="og:type" content="medical.health">
+  <meta property="og:url" content="https://mokdongcoen.com/sleep-clinic">
+  <meta property="og:locale" content="ko_KR">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="logo.png" type="image/png">
+  
+  <!-- Fonts -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+
+  <style>
+    /* 4. 디자인 시스템 (바로빌 개발자센터 스타일 재해석) */
+    :root {
+      --brand-primary: #2E5AAC;     /* 메인 브랜드 블루 (신뢰감을 주는 차분한 블루) */
+      --brand-dark: #1E3E7A;        /* 헤더/버튼 hover, 진한 강조 */
+      --brand-light: #E8EEFB;       /* 옅은 배경 섹션, 배지 */
+      --brand-accent: #5B8DEF;      /* 아이콘, 링크, 포인트 */
+      --neutral-ink: #1A1D29;       /* 헤드라인 텍스트 */
+      --neutral-body: #4A4F5C;      /* 본문 텍스트 */
+      --neutral-line: #E5E8EF;      /* 구분선, 카드 테두리 */
+      --bg-gray: #F8F9FC;           /* 옅은 회색 배경 */
+      --white: #FFFFFF;
+      --success-mint: #2FBF8F;      /* 급여 적용/체크 완료 등 긍정 신호 */
+      
+      --font-primary: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+      --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      color: var(--neutral-body);
+      background-color: var(--white);
+      line-height: 1.7;
+      word-break: keep-all;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* 레이아웃 공통 */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      width: 100%;
+    }
+
+    section {
+      padding: 100px 0; /* 바로빌 스타일의 넉넉한 여백 */
+      position: relative;
+    }
+
+    section.bg-gray {
+      background-color: var(--bg-gray);
+    }
+
+    /* 타이포그래피 */
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--neutral-ink);
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .section-badge {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--brand-primary);
+      background-color: var(--brand-light);
+      padding: 6px 14px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .section-subtitle {
+      font-size: 18px;
+      color: var(--neutral-body);
+      max-width: 700px;
+      margin-bottom: 48px;
+      font-weight: 400;
+    }
+
+    /* 버튼 스타일 */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: var(--transition-base);
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background-color: var(--brand-primary);
+      color: var(--white);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--brand-dark);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border-color: var(--brand-primary);
+      color: var(--brand-primary);
+    }
+
+    .btn-outline:hover {
+      background-color: var(--brand-light);
+    }
+
+    .btn-white-outline {
+      background-color: transparent;
+      border-color: var(--white);
+      color: var(--white);
+    }
+
+    .btn-white-outline:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* 화살표 링크 스타일 */
+    .arrow-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--brand-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: var(--transition-base);
+    }
+
+    .arrow-link::after {
+      content: ' →';
+      font-size: 16px;
+      transition: transform 0.2s ease;
+    }
+
+    .arrow-link:hover {
+      color: var(--brand-dark);
+    }
+
+    .arrow-link:hover::after {
+      transform: translateX(4px);
+    }
+
+    /* 스크롤 애니메이션 초기 상태 */
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .fade-in-section.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* 1. 헤더/내비게이션 */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 72px;
+      z-index: 1000;
+      background-color: transparent;
+      border-bottom: 1px solid transparent;
+      transition: var(--transition-base);
+    }
+
+    header.scrolled {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid var(--neutral-line);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(10px);
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 10px;
+    }
+
+    .logo-img {
+      height: 36px;
+      width: auto;
+      object-fit: contain;
+      background-color: var(--white);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .hospital-name {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--neutral-ink);
+      letter-spacing: -0.5px;
+    }
+
+    /* 메가메뉴 스타일 내비게이션 */
+    nav.nav-menu {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .nav-list {
+      display: flex;
+      list-style: none;
+      height: 100%;
+    }
+
+    .nav-item {
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-link {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--neutral-ink);
+      text-decoration: none;
+      padding: 0 20px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      transition: var(--transition-base);
+    }
+
+    .nav-link:hover {
+      color: var(--brand-primary);
+    }
+
+    /* 드롭다운 서브메뉴 */
+    .submenu {
+      position: absolute;
+      top: 72px;
+      left: 50%;
+      transform: translateX(-50%) translateY(10px);
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 8px;
+      width: 200px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-base);
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    .nav-item:hover .submenu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .submenu-link {
+      display: block;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: var(--neutral-body);
+      text-decoration: none;
+      transition: var(--transition-base);
+    }
+
+    .submenu-link:hover {
+      background-color: var(--brand-light);
+      color: var(--brand-primary);
+      font-weight: 600;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .phone-number {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--brand-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .phone-number svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .mobile-menu-btn svg {
+      width: 24px;
+      height: 24px;
+      stroke: var(--neutral-ink);
+    }
+
+    /* 2. 히어로 섹션 */
+    .hero-section {
+      padding-top: 152px; /* 헤더 공간 + 패딩 */
+      padding-bottom: 100px;
+      background: linear-gradient(180deg, rgba(232, 238, 251, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 620px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--brand-light);
+      color: var(--brand-primary);
+      font-weight: 700;
+      font-size: 14px;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+      border: 1px solid rgba(46, 90, 172, 0.15);
+    }
+
+    .hero-badge .dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--success-mint);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .hero-title {
+      font-size: 48px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--neutral-ink);
+      margin-bottom: 24px;
+      letter-spacing: -1px;
+    }
+
+    .hero-title span {
+      color: var(--brand-primary);
+    }
+
+    .hero-desc {
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--neutral-body);
+      margin-bottom: 40px;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+    }
+
+    .hero-image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(30, 62, 122, 0.1);
+      border: 1px solid var(--neutral-line);
+      object-fit: cover;
+    }
+
+    /* 3. 핵심 서비스 4카드 그리드 */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .service-card {
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 12px;
+      padding: 32px;
+      transition: var(--transition-base);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(30, 62, 122, 0.06);
+      border-color: var(--brand-accent);
+    }
+
+    .service-icon-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      background-color: var(--brand-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      color: var(--brand-primary);
+    }
+
+    .service-icon-box svg {
+      width: 24px;
+      height: 24px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
+    .service-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--neutral-ink);
+    }
+
+    .service-desc {
+      font-size: 14px;
+      color: var(--neutral-body);
+      margin-bottom: 24px;
+      flex-grow: 1;
+      line-height: 1.6;
+    }
+
+    /* 4. STEP 프로세스 섹션 */
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      position: relative;
+    }
+
+    .process-card {
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 12px;
+      padding: 36px;
+      position: relative;
+    }
+
+    .step-number {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--brand-primary);
+      margin-bottom: 16px;
+      display: inline-block;
+      letter-spacing: 1px;
+    }
+
+    .step-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--neutral-ink);
+    }
+
+    .step-desc {
+      font-size: 15px;
+      color: var(--neutral-body);
+      line-height: 1.6;
+    }
+
+    /* 5. 본인부담금 섹션 */
+    .cost-container {
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 16px;
+      padding: 48px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    }
+
+    .cost-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .cost-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .cost-table tr {
+      border-bottom: 1px solid var(--neutral-line);
+    }
+
+    .cost-table tr:last-child {
+      border-bottom: none;
+    }
+
+    .cost-table th, .cost-table td {
+      padding: 16px 20px;
+      text-align: left;
+    }
+
+    .cost-table th {
+      font-weight: 700;
+      color: var(--neutral-ink);
+      font-size: 16px;
+    }
+
+    .cost-table td {
+      color: var(--neutral-body);
+      font-size: 15px;
+    }
+
+    .cost-table .badge-insurance {
+      background-color: rgba(47, 191, 143, 0.12);
+      color: var(--success-mint);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+      display: inline-block;
+    }
+
+    .cost-table .price-val {
+      font-weight: 800;
+      color: var(--neutral-ink);
+      text-align: right;
+    }
+
+    .cost-highlight-card {
+      background-color: var(--brand-light);
+      border-radius: 12px;
+      padding: 32px;
+      border: 1px dashed rgba(46, 90, 172, 0.3);
+      text-align: center;
+    }
+
+    .cost-highlight-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--brand-dark);
+      margin-bottom: 12px;
+    }
+
+    .cost-highlight-price {
+      font-size: 40px;
+      font-weight: 900;
+      color: var(--brand-primary);
+      margin-bottom: 16px;
+      letter-spacing: -1px;
+    }
+
+    .cost-highlight-price span {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .cost-highlight-notice {
+      font-size: 13px;
+      color: var(--neutral-body);
+      line-height: 1.5;
+    }
+
+    /* 6. 환자 후기 / 신뢰 지표 */
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+
+    .story-card {
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 12px;
+      padding: 32px;
+      height: 100%;
+    }
+
+    .story-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--brand-accent);
+      background-color: var(--brand-light);
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+
+    .story-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      margin-bottom: 12px;
+    }
+
+    .story-content {
+      font-size: 14px;
+      color: var(--neutral-body);
+      line-height: 1.6;
+    }
+
+    /* 협력기관/학회 로고 스트립 */
+    .logo-strip {
+      text-align: center;
+      margin-top: 60px;
+      border-top: 1px solid var(--neutral-line);
+      padding-top: 40px;
+    }
+
+    .logo-strip-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #9499A6;
+      margin-bottom: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    .logo-grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+      flex-wrap: wrap;
+      opacity: 0.75;
+    }
+
+    .logo-item {
+      font-weight: 700;
+      color: #727782;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-item svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+
+    /* 7. 의료진 소개 */
+    .doctors-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+
+    .doctor-card {
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: var(--transition-base);
+    }
+
+    .doctor-card:hover {
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      border-color: var(--brand-accent);
+    }
+
+    .doctor-profile-top {
+      height: 160px;
+      background: linear-gradient(135deg, var(--brand-light) 0%, rgba(255, 255, 255, 1) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .doctor-avatar-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: var(--brand-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: 700;
+      font-size: 28px;
+      border: 4px solid var(--white);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .doctor-info-body {
+      padding: 32px;
+    }
+
+    .doctor-title-box {
+      text-align: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--neutral-line);
+      padding-bottom: 16px;
+    }
+
+    .doctor-name {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--neutral-ink);
+      margin-bottom: 6px;
+    }
+
+    .doctor-subtitle {
+      font-size: 13px;
+      color: var(--brand-primary);
+      font-weight: 700;
+    }
+
+    .doctor-career-list {
+      list-style: none;
+      font-size: 14px;
+      color: var(--neutral-body);
+    }
+
+    .doctor-career-list li {
+      margin-bottom: 8px;
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .doctor-career-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--brand-accent);
+    }
+
+    /* 8. 자주 묻는 질문 (FAQ) */
+    .faq-list {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--neutral-line);
+    }
+
+    .faq-item:first-child {
+      border-top: 1px solid var(--neutral-line);
+    }
+
+    .faq-header {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 24px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      transition: var(--transition-base);
+    }
+
+    .faq-header:hover {
+      color: var(--brand-primary);
+    }
+
+    .faq-header svg {
+      width: 20px;
+      height: 20px;
+      transition: transform 0.3s ease;
+      stroke: var(--neutral-body);
+    }
+
+    .faq-item.active .faq-header {
+      color: var(--brand-primary);
+    }
+
+    .faq-item.active .faq-header svg {
+      transform: rotate(180deg);
+      stroke: var(--brand-primary);
+    }
+
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      background-color: var(--bg-gray);
+    }
+
+    .faq-content {
+      padding: 20px 24px 30px;
+      font-size: 15px;
+      color: var(--neutral-body);
+      line-height: 1.7;
+    }
+
+    /* 9. 오시는 길 */
+    .map-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 32px;
+      background-color: var(--white);
+      border: 1px solid var(--neutral-line);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .map-embed {
+      width: 100%;
+      height: 400px;
+      border: none;
+      background-color: var(--bg-gray);
+    }
+
+    .map-info {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .map-info-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      margin-bottom: 20px;
+    }
+
+    .map-info-list {
+      list-style: none;
+      font-size: 14px;
+      color: var(--neutral-body);
+    }
+
+    .map-info-list li {
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .map-info-list li strong {
+      color: var(--neutral-ink);
+      min-width: 70px;
+      display: inline-block;
+    }
+
+    .map-info-list svg {
+      width: 18px;
+      height: 18px;
+      fill: none;
+      stroke: var(--brand-accent);
+      stroke-width: 2;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* 10. 하단 통 CTA 배너 */
+    .cta-banner {
+      background-color: var(--brand-primary);
+      color: var(--white);
+      text-align: center;
+      padding: 80px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-banner-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .cta-banner-title {
+      color: var(--white);
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .cta-banner-desc {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    /* 11. 푸터 */
+    footer {
+      background-color: #161922;
+      color: #8990A0;
+      padding: 60px 0 100px; /* 모바일 하단 고정바 대비 패딩 확대 */
+      font-size: 13px;
+      line-height: 1.8;
+      border-top: 1px solid #232734;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .footer-logo-area {
+      max-width: 300px;
+    }
+
+    .footer-logo-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .footer-links a {
+      color: #A3AAB8;
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition-base);
+    }
+
+    .footer-links a:hover {
+      color: var(--white);
+    }
+
+    .footer-info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 32px;
+    }
+
+    .footer-info-table tr {
+      border-bottom: 1px solid #232734;
+    }
+
+    .footer-info-table td {
+      padding: 10px 16px;
+      vertical-align: top;
+      border-bottom: 1px solid #232734;
+    }
+
+    .footer-info-table td:first-child {
+      font-weight: 700;
+      color: #A3AAB8;
+      width: 120px;
+    }
+
+    .footer-notice {
+      border-top: 1px solid #232734;
+      padding-top: 24px;
+      margin-top: 24px;
+      font-size: 12px;
+      color: #6C7382;
+    }
+
+    /* 모바일 하단 고정 CTA 바 */
+    .mobile-fixed-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-color: var(--white);
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      z-index: 999;
+      border-top: 1px solid var(--neutral-line);
+    }
+
+    .fixed-bar-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .fixed-bar-btn-call {
+      color: var(--brand-primary);
+      background-color: var(--white);
+    }
+
+    .fixed-bar-btn-reserve {
+      color: var(--white);
+      background-color: var(--brand-primary);
+    }
+
+    .fixed-bar-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    /* 자가진단 모달 스타일 */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(26, 29, 41, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    .modal-window {
+      background-color: var(--white);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 500px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--neutral-line);
+      overflow: hidden;
+      transform: translateY(20px);
+      transition: transform 0.3s ease;
+    }
+
+    .modal-overlay.active .modal-window {
+      transform: translateY(0);
+    }
+
+    .modal-header {
+      padding: 24px 32px;
+      border-bottom: 1px solid var(--neutral-line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg-gray);
+    }
+
+    .modal-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--neutral-body);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-close-btn svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
+    .modal-body {
+      padding: 32px;
+    }
+
+    .modal-intro {
+      font-size: 14px;
+      color: var(--neutral-body);
+      margin-bottom: 24px;
+    }
+
+    .diagnosis-list {
+      list-style: none;
+      margin-bottom: 30px;
+    }
+
+    .diagnosis-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      background-color: var(--bg-gray);
+      margin-bottom: 12px;
+      cursor: pointer;
+      transition: var(--transition-base);
+    }
+
+    .diagnosis-item:hover {
+      background-color: var(--brand-light);
+    }
+
+    .diagnosis-item input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--brand-primary);
+      margin-top: 3px;
+      cursor: pointer;
+    }
+
+    .diagnosis-label {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--neutral-ink);
+      line-height: 1.5;
+      cursor: pointer;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .modal-actions .btn {
+      flex: 1;
+    }
+
+    /* 자가진단 결과 레이아웃 */
+    .result-view {
+      display: none;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .result-badge {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .result-badge-normal {
+      background-color: rgba(47, 191, 143, 0.12);
+      color: var(--success-mint);
+    }
+
+    .result-badge-warning {
+      background-color: rgba(255, 179, 0, 0.12);
+      color: #FFB300;
+    }
+
+    .result-badge-danger {
+      background-color: rgba(229, 57, 53, 0.12);
+      color: #E53935;
+    }
+
+    .result-score {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--neutral-body);
+      margin-bottom: 12px;
+    }
+
+    .result-score span {
+      font-size: 28px;
+      color: var(--brand-primary);
+      font-weight: 800;
+    }
+
+    .result-text {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .result-disclaimer {
+      font-size: 11px;
+      color: #9499A6;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      border-top: 1px solid var(--neutral-line);
+      padding-top: 16px;
+    }
+
+    /* 모바일 네비게이션 드롭다운 */
+    .mobile-nav-overlay {
+      position: fixed;
+      top: 72px;
+      left: 0;
+      width: 100%;
+      background-color: var(--white);
+      border-bottom: 1px solid var(--neutral-line);
+      z-index: 998;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      display: none;
+      padding: 24px;
+    }
+
+    .mobile-nav-list {
+      list-style: none;
+    }
+
+    .mobile-nav-item {
+      border-bottom: 1px solid var(--bg-gray);
+    }
+
+    .mobile-nav-item:last-child {
+      border-bottom: none;
+    }
+
+    .mobile-nav-link {
+      display: block;
+      padding: 14px 0;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--neutral-ink);
+      text-decoration: none;
+    }
+
+    .mobile-submenu {
+      list-style: none;
+      padding-left: 16px;
+      padding-bottom: 10px;
+    }
+
+    .mobile-submenu-link {
+      display: block;
+      padding: 8px 0;
+      font-size: 14px;
+      color: var(--neutral-body);
+      text-decoration: none;
+    }
+
+    /* 미디어 쿼리 (반응형 최적화) */
+    @media (max-width: 1024px) {
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .process-steps {
+        grid-template-columns: 1fr;
+      }
+      .cost-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+      .doctors-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .map-grid {
+        grid-template-columns: 1fr;
+      }
+      .map-embed {
+        height: 300px;
+      }
+      .hero-title {
+        font-size: 38px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 60px 0;
+      }
+      
+      nav.nav-menu {
+        display: none;
+      }
+      
+      .phone-number {
+        display: none; /* 모바일에서는 하단 고정바로 대체 */
+      }
+      
+      .header-actions .btn {
+        display: none; /* 모바일에서는 하단 고정바 예약 버튼으로 대체 */
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .hero-title {
+        font-size: 32px;
+      }
+
+      .hero-cta {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .hero-cta .btn {
+        width: 100%;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mobile-fixed-bar {
+        display: grid;
+      }
+      
+      body {
+        padding-bottom: 60px; /* 고정바 두께 확보 */
+      }
+    }
+  </style>
+
+  <!-- 3. JSON-LD 구조화 데이터 -->
+  
+  <!-- 1) MedicalClinic & LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "목동코엔이비인후과",
+    "alternateName": "Mokdong Coen ENT Clinic",
+    "description": "목동 수면다원검사 및 수면클리닉 운영. 코골이, 수면무호흡증 진단, 건강보험 급여 적용 수면검사, 양압기 처방 전문 의료기관.",
+    "url": "https://mokdongcoen.com/sleep-clinic",
+    "logo": "https://mokdongcoen.com/logo.png",
+    "image": "https://mokdongcoen.com/sleep_clinic_room.png",
+    "telephone": "02-2644-5119",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "오목로 299 트라팰리스 웨스턴 에비뉴 4층",
+      "addressLocality": "양천구",
+      "addressRegion": "서울특별시",
+      "postalCode": "07998",
+      "addressCountry": "KR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.525624,
+      "longitude": 126.872242
+    },
+    "medicalSpecialty": "Otolaryngologic",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:15"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "availableService": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "수면다원검사",
+        "description": "수면 중 뇌파, 호흡, 맥박, 산소포화도 등을 다각적으로 측정하여 수면 장애를 진단하는 급여 건강보험 적용 표준 검사"
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "양압기(CPAP) 처방 및 관리",
+        "description": "수면무호흡증의 표준 비수술 치료법으로, 지속적 기기도입 및 사후 관리 프로세스 제공"
+      }
+    ]
+  }
+  </script>
+
+  <!-- 2) FAQPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "수면다원검사는 얼마나 걸리나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "수면다원검사는 평소 수면 시간과 유사하게 야간에 입원하여 진행됩니다. 보통 오후 8시~9시경 병원에 내원하셔서 센서 부착 후 약 6~8시간 동안 수면을 취하게 되며, 다음 날 오전 6시 전후로 정리하고 바로 퇴원 및 출근이 가능합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "급여 수면다원검사 적용 대상 기준은 어떻게 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "수면무호흡증이 강력히 의심되는 경우 건강보험 급여 혜택(본인부담금 20% 수준)을 받으실 수 있습니다. 주요 기준으로는 코골이가 심하거나 수면 중 호흡 정지가 관찰되는 경우, 심한 주간 졸림증이 지속되는 경우, 이비인후과 내시경 검사를 통해 기도가 좁아진 소견이 발견되는 경우 등이 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "수면다원검사 본인부담금은 정확히 얼마인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "일반 건강보험 환자의 경우 본인부담금은 135,930원(20% 부담) 수준입니다. 의료급여 1종 환자 및 차상위 1종 환자는 0원으로 전액 면제되며, 의료급여 2종은 67,960원, 차상위 2종은 95,150원으로 매우 경제적으로 정밀 검사를 받으실 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "양압기는 평생 써야 하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "양압기는 수면무호흡을 물리적으로 방지해주는 가장 효과적인 안경 같은 비수술 치료법입니다. 근본적인 기도의 좁아짐을 해결하지 않는 한 지속적으로 착용해야 이상적인 치료 효과를 누릴 수 있습니다. 체중 감량이나 해부학적 구조 개선을 동반하는 경우 전문의 판단에 따라 사용 빈도를 줄이거나 다른 치료로 변경할 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "검사 예약은 어떻게 진행하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "온라인 상담 신청을 남겨주시거나 전화(02-2644-5119)로 내원 예약을 하시면 됩니다. 1차 이비인후과 전문의 진료를 통해 건강보험 적용 가능 여부를 우선 진단하고, 적합할 경우 검사 일정을 예약하여 하룻밤 수면 검사를 실시하게 됩니다."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- 3) Physician / E-E-A-T Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "목동코엔이비인후과 수면클리닉 의료진",
+    "description": "이비인후과 전문의이자 수면인증의인 이학천 원장, 이나리 원장, 옥소혜 원장 소개. 풍부한 임상경험과 공인 자격을 보유한 전문 의료진이 신뢰할 수 있는 수면 장애 솔루션을 제공합니다.",
+    "about": [
+      {
+        "@type": "Physician",
+        "name": "이학천",
+        "medicalSpecialty": "Otolaryngologic",
+        "knowsAbout": ["수면다원검사", "코골이", "수면무호흡증", "양압기 치료"],
+        "qualification": "이비인후과 전문의, 대한수면학회 인증 수면인증의"
+      },
+      {
+        "@type": "Physician",
+        "name": "이나리",
+        "medicalSpecialty": "Otolaryngologic",
+        "knowsAbout": ["수면다원검사", "코골이", "소아 수면무호흡증"],
+        "qualification": "이비인후과 전문의, 대한수면학회 인증 수면인증의"
+      },
+      {
+        "@type": "Physician",
+        "name": "옥소혜",
+        "medicalSpecialty": "Otolaryngologic",
+        "knowsAbout": ["수면다원검사", "수면무호흡증", "양압기 압력 처방"],
+        "qualification": "이비인후과 전문의, 대한수면학회 인증 수면인증의"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- 1. 헤더/내비게이션 -->
+  <header id="header">
+    <div class="header-container">
+      <a href="#" class="logo-area" aria-label="목동코엔이비인후과 홈으로 이동">
+        <!-- 배경이 밝은 색일 때 잘 보이도록 padding 충분히 확보 -->
+        <img src="logo.png" alt="목동코엔이비인후과 로고" class="logo-img">
+        <span class="hospital-name">목동코엔이비인후과</span>
+      </a>
+      
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#services" class="nav-link">검사안내</a>
+            <ul class="submenu">
+              <li><a href="#services" class="submenu-link">핵심 서비스</a></li>
+              <li><a href="#process" class="submenu-link">검사 프로세스</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#cost" class="nav-link">비용안내</a>
+            <ul class="submenu">
+              <li><a href="#cost" class="submenu-link">건강보험 본인부담금</a></li>
+              <li><a href="#cost" class="submenu-link">의료급여 및 차상위</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#doctors" class="nav-link">의료진소개</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">고객지원</a>
+            <ul class="submenu">
+              <li><a href="#faq" class="submenu-link">자주 묻는 질문</a></li>
+              <li><a href="#map" class="submenu-link">오시는 길</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:02-2644-5119" class="phone-number" aria-label="병원 전화걸기">
+          <!-- 전화 아이콘 -->
+          <svg viewBox="0 0 24 24">
+            <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+          </svg>
+          02-2644-5119
+        </a>
+        <a href="https://m.booking.naver.com/booking/13/bizes/464549?theme=place&lang=ko&service-target=map-pc" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 10px 20px; font-size: 14px;">온라인 예약</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴 열기/닫기">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12" id="line1"></line>
+            <line x1="3" y1="6" x2="21" y2="6" id="line2"></line>
+            <line x1="3" y1="18" x2="21" y2="18" id="line3"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 모바일 메뉴 드롭다운 -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item">
+        <a href="#services" class="mobile-nav-link">검사안내</a>
+        <ul class="mobile-submenu">
+          <li><a href="#services" class="mobile-submenu-link">핵심 서비스</a></li>
+          <li><a href="#process" class="mobile-submenu-link">검사 프로세스</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#cost" class="mobile-nav-link">비용안내</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#doctors" class="mobile-nav-link">의료진소개</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#faq" class="mobile-nav-link">자주 묻는 질문</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#map" class="mobile-nav-link">오시는 길</a>
+      </li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- 2. 히어로 섹션 (바로빌식 2단 CTA) -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="dot"></span>
+              목동 급여수면다원검사 인증의원
+            </div>
+            <h1 class="hero-title">
+              편안한 잠, 건강한 하루<br>
+              <span>목동 수면다원검사</span>로 시작하세요
+            </h1>
+            <p class="hero-desc">
+              심한 코골이와 수면무호흡증은 방치하면 만성 피로를 넘어 합병증을 유발합니다. 대한수면학회 공인 수면인증의 3인이 하룻밤 편안한 입원 정밀 검사부터 양압기 맞춤 처방 및 평생 케어까지 책임집니다.
+            </p>
+            <div class="hero-cta">
+              <a href="https://m.booking.naver.com/booking/13/bizes/464549?theme=place&lang=ko&service-target=map-pc" target="_blank" rel="noopener noreferrer" class="btn btn-primary">검사 예약하기 &rarr;</a>
+              <a href="#cost" class="btn btn-outline">급여 비용 확인 &rarr;</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <!-- 쾌적한 1인 수면검사실 이미지 매핑 -->
+            <img src="sleep_clinic_room.png" alt="목동코엔이비인후과 쾌적한 수면다원검사실 1인 침실 환경" class="hero-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 핵심 서비스 4카드 그리드 -->
+    <section id="services" class="bg-gray">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">SLEEP SERVICES</span>
+          <h2 class="section-title">코엔이비인후과 맞춤형 수면클리닉</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">체계적인 진단과 맞춤 치료를 통해 질 높은 수면을 다시 찾아드립니다.</p>
+        </div>
+        <div class="services-grid">
+          <!-- 카드 1: 수면다원검사 안내 -->
+          <div class="service-card" onclick="location.href='#process'">
+            <div class="service-icon-box">
+              <!-- Bed/Sleep Icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M2,21V19H22V21H2M4,15.5A2.5,2.5 0 0,1 1.5,13V7.5A2.5,2.5 0 0,1 4,5H11.5A2.5,2.5 0 0,1 14,7.5V13A2.5,2.5 0 0,1 11.5,15.5H4M4,7A0.5,0.5 0 0,0 3.5,7.5V13A0.5,0.5 0 0,0 4,13.5H11.5A0.5,0.5 0 0,0 12,13V7.5A0.5,0.5 0 0,0 11.5,7H4M14,12.5V8.5H20V12.5H14M14,14H20A2,2 0 0,1 22,16V17H14V14M14,7H20A2,2 0 0,1 22,9V10H14V7" />
+              </svg>
+            </div>
+            <h3 class="service-title">수면다원검사 안내</h3>
+            <p class="service-desc">
+              병원에 하루 입원하여 잠자는 동안 뇌파, 안구 운동, 근육 긴장도, 산소 포화도 등을 측정하는 표준 수면 정밀 검사입니다.
+            </p>
+            <span class="arrow-link">검사 과정 보기</span>
+          </div>
+
+          <!-- 카드 2: 코골이·무호흡 자가진단 (클릭 시 모달 팝업 호출) -->
+          <div class="service-card" id="openDiagnosisBtn">
+            <div class="service-icon-box">
+              <!-- Checklist Icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M10,17L5,12L6.41,10.59L10,14.17L17.59,6.58L19,8L10,17Z" />
+              </svg>
+            </div>
+            <h3 class="service-title">코골이·무호흡 자가진단</h3>
+            <p class="service-desc">
+              혹시 나도 치료가 필요한 수면 장애일까? 간편한 5가지 체크리스트를 통해 수면 건강 위험도를 즉시 확인해보세요.
+            </p>
+            <span class="arrow-link">1분 만에 진단하기</span>
+          </div>
+
+          <!-- 카드 3: 급여 비용 확인하기 -->
+          <div class="service-card" onclick="location.href='#cost'">
+            <div class="service-icon-box">
+              <!-- Card/Money Icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20 4H4C2.89 4 2 4.89 2 6V18C2 19.11 2.89 20 4 20H20C21.11 20 22 19.11 22 18V6C22 4.89 21.11 4 20 4M20 18H4V12H20V18M20 8H4V6H20V8Z" />
+              </svg>
+            </div>
+            <h3 class="service-title">급여 비용 확인하기</h3>
+            <p class="service-desc">
+              단순 코골이와 달리 질병이 의심되는 경우, 본인부담금 20% 수준의 건강보험 혜택이 적용되는 조건과 혜택 금액을 안내합니다.
+            </p>
+            <span class="arrow-link">본인부담 비용 보기</span>
+          </div>
+
+          <!-- 카드 4: 양압기 클리닉 안내 -->
+          <div class="service-card" onclick="window.open('https://m.booking.naver.com/booking/13/bizes/464549?theme=place&lang=ko&service-target=map-pc', '_blank')">
+            <div class="service-icon-box">
+              <!-- Heart-rate/Device Icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z" />
+              </svg>
+            </div>
+            <h3 class="service-title">양압기 클리닉 안내</h3>
+            <p class="service-desc">
+              수면무호흡증의 대표적인 비수술 표준 치료! 건강보험 지원을 통한 렌탈 처방과 데이터 기반 수면 무호흡 집중 관리 기법을 소개합니다.
+            </p>
+            <span class="arrow-link">양압기 케어 받기</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. STEP 프로세스 섹션 -->
+    <section id="process" class="fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">SLEEP CHECK PROCESS</span>
+          <h2 class="section-title">단 한 번의 검사로 수면 문제를 해결하세요</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">철저하게 준비된 환자 중심의 원스톱 수면다원검사 관리 솔루션입니다.</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-card">
+            <span class="step-number">STEP 01</span>
+            <h3 class="step-title">상담 신청 및 진료</h3>
+            <p class="step-desc">
+              전화 또는 간편한 온라인 상담 신청을 통해 예약 후 병원에 방문합니다. 이비인후과 전문의가 구강 및 비강 내시경 검사를 통해 해부학적 기도를 진찰하고 급여수면다원검사 적용 여부를 우선 판단합니다.
+            </p>
+          </div>
+          <div class="process-card">
+            <span class="step-number">STEP 02</span>
+            <h3 class="step-title">1인실 야간 수면다원검사</h3>
+            <p class="step-desc">
+              예약된 검사일 저녁, 호텔 수준의 쾌적한 1인 수면실에 입원합니다. 전문 수면기사가 정밀 센서를 수면 중에 방해되지 않도록 꼼꼼하게 부착하고 다각도의 수면 상태 모니터링 검사를 6~7시간 진행합니다.
+            </p>
+          </div>
+          <div class="process-card">
+            <span class="step-number">STEP 03</span>
+            <h3 class="step-title">결과 분석 및 맞춤 처방</h3>
+            <p class="step-desc">
+              수면 데이터 분석 후 판독 결과를 전문의가 상세히 설명합니다. 중증 수면무호흡증 등으로 진단될 경우 즉시 개인에게 최적화된 양압기(CPAP) 사용 압력을 테스트하여 건강보험 급여로 양압기 렌탈 처방을 진행합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 수면다원검사 본인부담금 섹션 -->
+    <section id="cost" class="bg-gray fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">PRICING BENEFIT</span>
+          <h2 class="section-title">건강보험 적용 급여수면다원검사 비용 안내</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">과거 고가 비급여 검사였던 수면다원검사, 이제 급여 지원을 받으실 수 있습니다.</p>
+        </div>
+        <div class="cost-container">
+          <div class="cost-grid">
+            <div>
+              <h3 style="font-size: 22px; margin-bottom: 24px; color: var(--neutral-ink);">수면 장애 의심 시 본인부담금 요율표</h3>
+              <table class="cost-table">
+                <thead>
+                  <tr>
+                    <th>대상 구분</th>
+                    <th>보험 구분</th>
+                    <th style="text-align: right;">최종 본인 부담금</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>일반 건강보험 대상자</td>
+                    <td><span class="badge-insurance">급여 20% 적용</span></td>
+                    <td class="price-val">135,930원</td>
+                  </tr>
+                  <tr>
+                    <td>의료급여 1종 / 차상위 1종</td>
+                    <td><span class="badge-insurance" style="background-color:rgba(46, 90, 172, 0.1); color:var(--brand-primary)">전액 국고 지원</span></td>
+                    <td class="price-val" style="color: var(--brand-primary)">0원</td>
+                  </tr>
+                  <tr>
+                    <td>의료급여 2종</td>
+                    <td><span class="badge-insurance">급여 적용</span></td>
+                    <td class="price-val">67,960원</td>
+                  </tr>
+                  <tr>
+                    <td>차상위 2종</td>
+                    <td><span class="badge-insurance">급여 적용</span></td>
+                    <td class="price-val">95,150원</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="cost-highlight-card">
+              <p class="cost-highlight-title">일반 건강보험 환자 기준</p>
+              <h4 class="cost-highlight-price">135,930<span>원</span></h4>
+              <p class="cost-highlight-notice">
+                ※ 실손/실비 보험(실손의료비 가입 조건에 따라 차이가 있을 수 있음) 청구가 가능한 법정 비급여 외 급여 항목이므로 환자 부담이 훨씬 더 낮아질 수 있습니다. 사전 상담을 받아보세요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 환자 후기 / 신뢰 지표 섹션 (바로빌 BUSINESS STORY 차용) -->
+    <section id="stories" class="fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">Sleep wellness</span>
+          <h2 class="section-title">양압기치료 효과</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">양압기 치료를 통해서 건강한 수면을 되찾으세요</p>
+        </div>
+        
+        <div class="story-grid">
+          <div class="story-card">
+            <span class="story-label">효과1</span>
+            <h3 class="story-title">무호흡·저호흡 감소로 인한 수면의 질 개선</h3>
+            <p class="story-content">
+              기도가 막히지 않도록 지속적으로 공기를 밀어 넣어 무호흡·저호흡 횟수(AHI)를 크게 낮춰줍니다. 수면 중 각성이 줄면서 깊은 잠(서파수면)의 비율이 늘어나 실제로 "잘 잤다"는 느낌을 회복하게 됩니다.
+            </p>
+          </div>
+          <div class="story-card">
+            <span class="story-label">효과2</span>
+            <h3 class="story-title">주간 졸음 및 인지기능 개선</h3>
+            <p class="story-content">
+              야간 수면의 질이 좋아지면서 주간 과다졸음(EDS)이 줄고, 집중력·기억력·판단력 저하가 개선됩니다. 운전 중 졸음이나 작업 중 실수 위험이 줄어드는 것도 이 효과와 연결됩니다.
+            </p>
+          </div>
+          <div class="story-card">
+            <span class="story-label">효과3</span>
+            <h3 class="story-title">심혈관계 합병증 위험 감소</h3>
+            <p class="story-content">
+              반복적인 무호흡으로 인한 저산소증과 교감신경 항진이 줄어들면서, 고혈압·부정맥·심부전·뇌졸중 등 심혈관계 질환 위험이 낮아집니다. 특히 치료저항성 고혈압 환자에서 양압기 사용 후 혈압이 개선되는 경우가 보고되어 있습니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 협력기관 로고 나열 (바로빌 파트너 로고 UI 차용) -->
+        <div class="logo-strip">
+          <h3 class="logo-strip-title">공신력 있는 수면 의학 네트워크 및 협력 의료 기관</h3>
+          <div class="logo-grid">
+            <div class="logo-item">
+              <!-- Medical Cross/Shield Icon -->
+              <svg viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z"/></svg>
+              대한수면학회
+            </div>
+            <div class="logo-item">
+              <svg viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z"/></svg>
+              대한이비인후과학회
+            </div>
+            <div class="logo-item">
+              <svg viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z"/></svg>
+              대한이비인후과개원의사회
+            </div>
+            <div class="logo-item">
+              <svg viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z"/></svg>
+              고려대학교 의료원 협력의료기관
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. 의료진 소개 (E-E-A-T 신호 강화) -->
+    <section id="doctors" class="bg-gray fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">MEDICAL SPECIALISTS</span>
+          <h2 class="section-title">수면인증의 전문의 3인 공동 진료</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">학술적 전문 자격과 임상적 신뢰를 바탕으로 환자분의 숙면을 책임집니다.</p>
+        </div>
+
+        <div class="doctors-grid">
+          <!-- 의사 1: 이학천 원장 -->
+          <div class="doctor-card">
+            <div class="doctor-profile-top">
+              <div class="doctor-avatar-circle">이</div>
+            </div>
+            <div class="doctor-info-body">
+              <div class="doctor-title-box">
+                <h3 class="doctor-name">이학천 대표원장</h3>
+                <span class="doctor-subtitle">이비인후과 전문의 / 수면인증의</span>
+              </div>
+              <ul class="doctor-career-list">
+                <li>고려대학교 의과대학 및 동대학원 졸업</li>
+                <li>고려대학교 구로병원 이비인후과 전공의 수료</li>
+                <li>대한이비인후과학회 정회원</li>
+                <li>대한수면학회 정회원 및 수면인증의 획득</li>
+                <li>대한이비인후과학회 정회원</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 의사 2: 이나리 원장 -->
+          <div class="doctor-card">
+            <div class="doctor-profile-top">
+              <div class="doctor-avatar-circle" style="background-color: var(--brand-accent);">이</div>
+            </div>
+            <div class="doctor-info-body">
+              <div class="doctor-title-box">
+                <h3 class="doctor-name">이나리 원장</h3>
+                <span class="doctor-subtitle">이비인후과 전문의 / 수면인증의</span>
+              </div>
+              <ul class="doctor-career-list">
+               <li>고려대학교 의과대학 및 동대학원 졸업</li>
+                <li>고려대학교 구로병원 이비인후과 전공의 수료</li>
+                <li>대한이비인후과학회 정회원</li>
+                <li>대한수면학회 정회원 및 수면인증의 획득</li>
+                <li>대한이비인후과학회 정회원</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 의사 3: 옥소혜 원장 -->
+          <div class="doctor-card">
+            <div class="doctor-profile-top">
+              <div class="doctor-avatar-circle" style="background-color: var(--brand-dark);">옥</div>
+            </div>
+            <div class="doctor-info-body">
+              <div class="doctor-title-box">
+                <h3 class="doctor-name">옥소혜 원장</h3>
+                <span class="doctor-subtitle">이비인후과 전문의 / 수면인증의</span>
+              </div>
+              <ul class="doctor-career-list">
+               <li>고려대학교 의과대학 및 동대학원 졸업</li>
+                <li>고려대학교 구로병원 이비인후과 전공의 수료</li>
+                <li>대한이비인후과학회 정회원</li>
+                <li>대한수면학회 정회원 및 수면인증의 획득</li>
+                <li>대한이비인후과학회 정회원</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. 자주 묻는 질문 (FAQ) -->
+    <section id="faq" class="fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">FAQ</span>
+          <h2 class="section-title">수면다원검사 자주 묻는 질문</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">검사를 망설이거나 궁금하신 점이 있으시다면 아래 내용을 확인해 보세요.</p>
+        </div>
+
+        <div class="faq-list">
+          <!-- 질문 1 -->
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>수면다원검사는 얼마나 걸리나요?</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-body" id="faq-ans-1">
+              <div class="faq-content">
+                수면다원검사는 평소 주무시는 수면 주기와 비슷하게 야간에 입원하여 진행됩니다. 보통 오후 8시~9시경 병원에 내원하셔서 센서 부착(약 30~40분 소요) 후 약 6~8시간 동안 수면을 취하게 되며, 다음 날 오전 6시 전후로 내장된 센서를 탈거하고 퇴원하여 바로 정상 일과나 출근을 하실 수 있도록 편의를 제공하고 있습니다.
+              </div>
+            </div>
+          </div>
+
+          <!-- 질문 2 -->
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>급여수면다원검사 적용 대상 기준은 어떻게 되나요?</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-body" id="faq-ans-2">
+              <div class="faq-content">
+                중등도 이상의 수면무호흡증이 강력히 의심될 때 건강보험 급여 혜택이 주어집니다. 대표적으로 코골이가 극심하고 배우자에 의해 무호흡 증상이 직접 목격된 경우, 심한 주간 졸림증으로 안전사고 위험이 있거나 이비인후과 후두 내시경 또는 구강 구조 검사상 기도가 유의하게 좁아진 환자의 경우 급여 대상이 됩니다.
+              </div>
+            </div>
+          </div>
+
+          <!-- 질문 3 -->
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>수면다원검사 당일 주의사항은 무엇인가요?</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-body" id="faq-ans-3">
+              <div class="faq-content">
+                검사 당일 낮에는 가급적 낮잠을 피해주셔야 원활한 야간 검사가 가능합니다. 오후 이후에는 카페인이 든 음료(커피, 녹차, 탄산음료)와 술의 섭취를 금해 주시고, 뇌파 및 피부 센서의 정밀한 부착을 위해 머리는 샴푸로 깨끗이 감고 얼굴에도 기초화장품 외의 짙은 화장이나 손발톱 젤네일 등은 제거하고 내원해 주셔야 정확한 측정이 가능합니다.
+              </div>
+            </div>
+          </div>
+
+          <!-- 질문 4 -->
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>양압기는 꼭 평생 써야 하나요?</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-body" id="faq-ans-4">
+              <div class="faq-content">
+                양압기는 시력을 개선하기 위해 착용하는 안경과 유사하게 착용 시에만 호흡 통로를 확보하여 일시적 무호흡을 막아주는 치료 기구입니다. 따라서 무호흡 상태를 근본적으로 방지하기 위해 장기 사용을 권유드리나, 체중 조절이나 이비인후과적 수술, 치료에 의해 기도 구조가 호전될 경우 담당 수면인증의 판정 하에 압력을 조정하거나 기기 사용 중단이 가능할 수도 있습니다.
+              </div>
+            </div>
+          </div>
+
+          <!-- 질문 5 -->
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false" aria-controls="faq-ans-5">
+              <span>검사 예약은 어떻게 진행하나요?</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-body" id="faq-ans-5">
+              <div class="faq-content">
+                수면다원검사는 입원 정밀 검사이므로 사전 예약제로만 운영됩니다. 랜딩페이지 하단의 예약 양식을 작성하시거나 병원 대표번호(02-2644-5119)로 직접 통화하셔서 진료 일정을 먼저 수립한 뒤, 1차 외래 내원 시 전문의 사전 검진을 거쳐 검사 요일을 선점하여 예약을 확정하게 됩니다.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. 오시는 길 -->
+    <section id="map" class="bg-gray fade-in-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-badge">LOCATION</span>
+          <h2 class="section-title">오시는 길 및 안내</h2>
+          <p class="section-subtitle" style="margin-left: auto; margin-right: auto;">목동역 인근 트라팰리스에 위치해 대중교통 및 자차 이동이 모두 편리합니다.</p>
+        </div>
+
+        <div class="map-grid">
+          <!-- 카카오맵/네이버지도 이동 링크 연동형 모던 지도 박스 -->
+          <iframe 
+            class="map-embed" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.63371991444!2d126.87005331531089!3d37.5256239798059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9c0b115668b5%3A0xe2128e1d5e30b62e!2s299%20Omok-ro%2C%20Yangcheon-gu%2C%20Seoul!5e0!3m2!1sen!2skr!4v1688534000000!5m2!1sen!2skr" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="목동코엔이비인후과 위치 지도">
+          </iframe>
+          
+          <div class="map-info">
+            <h3 class="map-info-title">목동코엔이비인후과</h3>
+            <ul class="map-info-list">
+              <li>
+                <!-- Map Pin Icon -->
+                <svg viewBox="0 0 24 24"><path d="M12,2C8.13,2 5,5.13 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9C19,5.13 15.87,2 12,2M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5Z"/></svg>
+                <span>
+                  <strong>주소</strong><br>
+                  서울 양천구 오목로 299 트라팰리스 웨스턴 에비뉴 4층
+                </span>
+              </li>
+              <li>
+                <!-- Train Icon -->
+                <svg viewBox="0 0 24 24"><path d="M12,2c-4,0-7,2.24-7,5v9c0,2.76,3,5,7,5s7-2.24,7-5V7C19,4.24,16,2,12,2z M7.5,17c-0.83,0-1.5-0.67-1.5-1.5S6.67,14,7.5,14s1.5,0.67,1.5,1.5S8.33,17,7.5,17z M12,11c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C14,10.1,13.1,11,12,11z M16.5,17c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,17,16.5,17z"/></svg>
+                <span>
+                  <strong>지하철</strong><br>
+                  5호선 오목교역 8번 출구 또는 목동역 5번 출구 도보 5분 거리
+                </span>
+              </li>
+              <li>
+                <!-- Car Icon -->
+                <svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+                <span>
+                  <strong>주차</strong><br>
+                  트라팰리스 웨스턴에비뉴 건물 내 무료 주차 지원 (수면다원검사 입원 환자 주차권 제공)
+                </span>
+              </li>
+            </ul>
+            <div style="margin-top: 24px;">
+              <a href="https://naver.me/G386pIBc" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size: 14px; padding: 10px 20px;">네이버 플레이스로 보기 &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 하단 통 CTA 배너가 요청에 의해 제거되었습니다. -->
+  </main>
+
+  <!-- 11. 푸터 -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo-area">
+          <img src="logo.png" alt="목동코엔이비인후과 로고" class="logo-img">
+          <p class="footer-logo-title">목동코엔이비인후과의원</p>
+          <div class="footer-links">
+            <a href="https://blog.naver.com/shinshin005" target="_blank" rel="noopener noreferrer">네이버 블로그</a>
+            <a href="https://naver.me/G386pIBc" target="_blank" rel="noopener noreferrer">네이버 플레이스</a>
+            <a href="#" onclick="alert('개인정보처리방침 양식에 따라 환자 정보는 진료 보관 외 어떠한 경우에도 마케팅 용도로 유출 및 오용되지 않습니다.'); return false;">개인정보처리방침</a>
+          </div>
+        </div>
+        <div>
+          <p style="font-size: 14px; font-weight: 700; color: var(--white); margin-bottom: 12px;">진료 시간 안내</p>
+          <p style="margin-bottom: 6px;"><strong>평일:</strong> 오전 9시 ~ 오후 6시 15분 (점심시간: 오후 12시 15분 ~ 오후 2시)</p>
+          <p style="margin-bottom: 6px;"><strong>토요일:</strong> 오전 9시 ~ 오후 2시 (점심시간 없음)</p>
+          <p><strong>일요일 및 공휴일:</strong> 휴진</p>
+        </div>
+      </div>
+      
+      <table class="footer-info-table">
+        <tbody>
+          <tr>
+            <td>병원명</td>
+            <td>목동코엔이비인후과의원</td>
+            <td>대표자명</td>
+            <td>이학천</td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td colspan="3">서울 양천구 오목로 299 트라팰리스 웨스턴 에비뉴 4층</td>
+          </tr>
+          <tr>
+            <td>대표번호</td>
+            <td>02-2644-5119</td>
+            <td>이메일</td>
+            <td>coen_ent@naver.com (예시)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="footer-notice">
+        <p>※ 본 콘텐츠는 수면다원검사 및 수면클리닉 서비스의 정보 제공과 마케팅 홍보를 목적으로 의원의 검증을 통해 제작되었으며, 의학적 진단을 대체할 수 없습니다. 정확한 진단과 개별 치료 계획은 반드시 이비인후과 전문의 등과의 정밀 면담 및 진료를 요합니다.</p>
+        <p style="margin-top: 8px;">의료광고심의필 제 2026-XXXX-XXXXXX호 (심의 대기 중) | © 2026 Mokdong Coen ENT Clinic. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 모바일 하단 고정 CTA 바 (전화 걸기 + 온라인 예약) -->
+  <div class="mobile-fixed-bar">
+    <a href="tel:02-2644-5119" class="fixed-bar-btn fixed-bar-btn-call">
+      <svg viewBox="0 0 24 24">
+        <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+      </svg>
+      전화 상담
+    </a>
+    <a href="https://m.booking.naver.com/booking/13/bizes/464549?theme=place&lang=ko&service-target=map-pc" target="_blank" rel="noopener noreferrer" class="fixed-bar-btn fixed-bar-btn-reserve">
+      <svg viewBox="0 0 24 24">
+        <path d="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+      </svg>
+      온라인 예약
+    </a>
+  </div>
+
+  <!-- 자가진단 모달 팝업 창 -->
+  <div class="modal-overlay" id="diagnosisModal">
+    <div class="modal-window">
+      <div class="modal-header">
+        <span class="modal-title">코골이·무호흡 자가진단</span>
+        <button class="modal-close-btn" id="closeDiagnosisBtn" aria-label="자가진단 팝업 닫기">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- 문항 뷰 -->
+        <div id="quizView">
+          <p class="modal-intro">해당하는 수면 증상에 체크해 보세요. (중복 선택 가능)</p>
+          <ul class="diagnosis-list">
+            <li class="diagnosis-item">
+              <input type="checkbox" id="q1">
+              <label for="q1" class="diagnosis-label">1. 잘 때 코골이가 심하거나 컥컥거린다는 소리를 듣는다.</label>
+            </li>
+            <li class="diagnosis-item">
+              <input type="checkbox" id="q2">
+              <label for="q2" class="diagnosis-label">2. 수면 중 숨을 일시적으로 멈추는 무호흡 증상이 관찰된다.</label>
+            </li>
+            <li class="diagnosis-item">
+              <input type="checkbox" id="q3">
+              <label for="q3" class="diagnosis-label">3. 자고 일어나도 개운하지 않고, 아침에 두통이 있다.</label>
+            </li>
+            <li class="diagnosis-item">
+              <input type="checkbox" id="q4">
+              <label for="q4" class="diagnosis-label">4. 낮 시간 동안 비정상적으로 심한 주간 졸림 및 피로를 느낀다.</label>
+            </li>
+            <li class="diagnosis-item">
+              <input type="checkbox" id="q5">
+              <label for="q5" class="diagnosis-label">5. 평소 만성 고혈압, 당뇨, 혹은 부정맥 등 혈관계 질환이 있다.</label>
+            </li>
+          </ul>
+          <div class="modal-actions">
+            <button class="btn btn-primary" onclick="calculateResult()">결과 분석하기 &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 결과 뷰 -->
+        <div id="resultView" class="result-view">
+          <div id="resultBadge" class="result-badge">의심 단계</div>
+          <p class="result-score">나의 일치 증상: <span id="resultScoreNum">0</span>개</p>
+          <p class="result-text" id="resultTextContent">위험도 분석 내용이 이곳에 표기됩니다.</p>
+          <div class="result-disclaimer">
+            ※ 본 진단은 의학적 검사를 대체할 수 없으며, 정확한 위험도는 이비인후과 전문의 외래 진료와 수면다원검사를 통해 진단됩니다.
+          </div>
+          <div class="modal-actions">
+            <button class="btn btn-outline" onclick="resetQuiz()">다시 테스트</button>
+            <a href="https://m.booking.naver.com/booking/13/bizes/464549?theme=place&lang=ko&service-target=map-pc" target="_blank" rel="noopener noreferrer" class="btn btn-primary" onclick="closeModal()">정밀검사 예약 &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 1. 헤더 스크롤 인터랙션 (바로빌처럼 스크롤 시 흰색 배경으로 매끄럽게 전환)
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // 2. 모바일 내비게이션 햄버거 메뉴 토글
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      const isOpened = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+      mobileMenuBtn.setAttribute('aria-expanded', !isOpened);
+      
+      if (!isOpened) {
+        mobileNavOverlay.style.display = 'block';
+        document.getElementById('line1').setAttribute('transform', 'rotate(45 12 12) translate(0, 0)');
+        document.getElementById('line2').style.opacity = '0';
+        document.getElementById('line3').setAttribute('transform', 'rotate(-45 12 12) translate(0, 0)');
+      } else {
+        mobileNavOverlay.style.display = 'none';
+        document.getElementById('line1').removeAttribute('transform');
+        document.getElementById('line2').style.opacity = '1';
+        document.getElementById('line3').removeAttribute('transform');
+      }
+    });
+
+    // 모바일 메뉴 클릭 시 자동 닫힘
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link, .mobile-submenu-link');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNavOverlay.style.display = 'none';
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        document.getElementById('line1').removeAttribute('transform');
+        document.getElementById('line2').style.opacity = '1';
+        document.getElementById('line3').removeAttribute('transform');
+      });
+    });
+
+    // 3. 자가진단 모달 관련 스크립트
+    const openDiagnosisBtn = document.getElementById('openDiagnosisBtn');
+    const closeDiagnosisBtn = document.getElementById('closeDiagnosisBtn');
+    const diagnosisModal = document.getElementById('diagnosisModal');
+
+    openDiagnosisBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      diagnosisModal.classList.add('active');
+    });
+
+    closeDiagnosisBtn.addEventListener('click', closeModal);
+
+    diagnosisModal.addEventListener('click', (e) => {
+      if (e.target === diagnosisModal) {
+        closeModal();
+      }
+    });
+
+    function closeModal() {
+      diagnosisModal.classList.remove('active');
+      setTimeout(resetQuiz, 300); // 닫힌 뒤에 조용히 리셋
+    }
+
+    // 자가진단 결과 산출 함수
+    function calculateResult() {
+      const q1 = document.getElementById('q1').checked;
+      const q2 = document.getElementById('q2').checked;
+      const q3 = document.getElementById('q3').checked;
+      const q4 = document.getElementById('q4').checked;
+      const q5 = document.getElementById('q5').checked;
+
+      let score = 0;
+      if (q1) score++;
+      if (q2) score++;
+      if (q3) score++;
+      if (q4) score++;
+      if (q5) score++;
+
+      document.getElementById('resultScoreNum').innerText = score;
+
+      const badge = document.getElementById('resultBadge');
+      const textContent = document.getElementById('resultTextContent');
+
+      if (score <= 1) {
+        badge.className = 'result-badge result-badge-normal';
+        badge.innerText = '안전/양호';
+        textContent.innerText = '수면 장애 및 수면무호흡증의 위험도가 비교적 낮습니다. 다만 가벼운 코골이가 지속될 경우 체중 관리나 수면 자세 교정 등의 예방 관리가 도움이 됩니다.';
+      } else if (score <= 3) {
+        badge.className = 'result-badge result-badge-warning';
+        badge.innerText = '수면무호흡 의심';
+        textContent.innerText = '수면 장애 및 경증 수면무호흡증이 의심됩니다. 잠자는 동안 충분한 기도가 개방되지 못해 피로가 누적되고 있을 확률이 있으니 전문의 진료를 받아보시길 권장합니다.';
+      } else {
+        badge.className = 'result-badge result-badge-danger';
+        badge.innerText = '고위험군 (수면다원검사 필요)';
+        textContent.innerText = '중증 수면무호흡증 위험성이 대단히 높습니다. 심뇌혈관계 합병증과 주간 무기력증을 막기 위해 빠른 이비인후과 전문의 검진 및 급여 수면다원검사가 강력히 요구됩니다.';
+      }
+
+      document.getElementById('quizView').style.display = 'none';
+      document.getElementById('resultView').style.display = 'block';
+    }
+
+    function resetQuiz() {
+      document.getElementById('q1').checked = false;
+      document.getElementById('q2').checked = false;
+      document.getElementById('q3').checked = false;
+      document.getElementById('q4').checked = false;
+      document.getElementById('q5').checked = false;
+
+      document.getElementById('quizView').style.display = 'block';
+      document.getElementById('resultView').style.display = 'none';
+    }
+
+    // 4. FAQ 아코디언 인터랙션
+    const faqHeaders = document.querySelectorAll('.faq-header');
+    
+    faqHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const item = header.parentElement;
+        const body = item.querySelector('.faq-body');
+        const isActive = item.classList.contains('active');
+
+        // 다른 활성화된 아코디언들 닫기
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+          if (otherItem !== item && otherItem.classList.contains('active')) {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-body').style.maxHeight = null;
+            otherItem.querySelector('.faq-header').setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        if (!isActive) {
+          item.classList.add('active');
+          body.style.maxHeight = body.scrollHeight + 'px';
+          header.setAttribute('aria-expanded', 'true');
+        } else {
+          item.classList.remove('active');
+          body.style.maxHeight = null;
+          header.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    // 5. 스크롤 fade-in 효과 (IntersectionObserver)
+    const fadeSections = document.querySelectorAll('.fade-in-section');
+    const observerOptions = {
+      root: null,
+      threshold: 0.15,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target); // 한 번 보인 다음엔 감시 중지
+        }
+      });
+    }, observerOptions);
+
+    fadeSections.forEach(section => {
+      observer.observe(section);
+    });
+
+    // 상담 신청 폼이 제거되어 서브밋 핸들러가 삭제되었습니다.
+  </script>
+</body>
+</html>
